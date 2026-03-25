@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.png" alt="CarSnipe — Hunt Down the Best Car Deals" width="600">
+  <img src="https://carsnipe.com/images/og-banner.png" alt="CarSnipe — Instant Telegram alerts for Facebook Marketplace vehicles" width="700">
 </p>
 
 <p align="center">
@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Concept211/CarSnipe/releases/latest/download/CarSnipe_Installer.exe"><img src="https://img.shields.io/badge/Download-Windows%20Installer-blue?style=for-the-badge&logo=windows" alt="Download"></a>
+  <a href="https://carsnipe.com/download"><img src="https://img.shields.io/badge/Download-Get%20Started-blue?style=for-the-badge" alt="Download"></a>
   <a href="https://carsnipe.com"><img src="https://img.shields.io/badge/Website-carsnipe.com-blue?style=for-the-badge" alt="Website"></a>
   <a href="https://t.me/CarSnipeBot"><img src="https://img.shields.io/badge/Telegram-@CarSnipeBot-blue?style=for-the-badge&logo=telegram" alt="Telegram"></a>
 </p>
@@ -16,37 +16,43 @@
 
 ## What is CarSnipe?
 
-CarSnipe is a Windows desktop agent that monitors Facebook Marketplace for used vehicles and sends you instant alerts via Telegram. Stop refreshing — let CarSnipe watch for you.
+CarSnipe monitors Facebook Marketplace for used vehicles and sends you instant alerts via Telegram. Stop refreshing — let CarSnipe watch for you.
 
-**How it works:**
-1. The agent runs quietly in your system tray
-2. It checks Facebook Marketplace on your configured schedule
-3. When a new listing matches your search criteria, you get a Telegram notification within minutes
+Available as a **browser extension** (Chrome & Firefox) or **desktop agent** (Windows):
+
+| | Browser Extension | Desktop Agent |
+|---|---|---|
+| **Platforms** | Chrome, Firefox | Windows 10/11 |
+| **Setup** | Install extension, pair with Telegram | Download installer, pair with Telegram |
+| **Runs in** | Your browser (background tab) | System tray |
+| **Best for** | Most users — lightweight, easy setup | Users who prefer a standalone app |
+
+Both options deliver the same alerts and use the same Telegram bot for configuration.
 
 ## Features
 
 - **Instant Alerts** — Get notified via Telegram the moment a matching vehicle is listed
 - **Multiple Searches** — Monitor different makes, models, price ranges, and locations
 - **Price Drop Alerts** — Know when sellers lower their prices (Pro plan)
-- **Runs in Background** — Minimal CPU and memory usage, sits in your system tray
-- **Privacy First** — Your Facebook credentials stay on your machine, encrypted locally
+- **Distance & Drive Time** — See how far each listing is from you
+- **Dealer Filtering** — Skip dealer listings and only see private sellers
+- **Runs in Background** — Minimal resource usage, works while you do other things
 
 ## Quick Start
 
-1. **Download** [`CarSnipe_Installer.exe`](https://github.com/Concept211/CarSnipe/releases/latest/download/CarSnipe_Installer.exe) and run it
-2. **Pair with Telegram** — Send `/connect` to [@CarSnipeBot](https://t.me/CarSnipeBot) and enter the pairing code
-3. **Log into Facebook** — The agent opens a browser window for a one-time login
+### Browser Extension (Recommended)
+
+1. **Install** from [Chrome Web Store](https://chromewebstore.google.com/detail/carsnipe-facebook-marketp/inpmkedhfjjmfaodhlfkkabfjpcjgmlp) or [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/carsnipe-facebook-marketplace/)
+2. **Pair with Telegram** — Send `/start` to [@CarSnipeBot](https://t.me/CarSnipeBot) and enter the pairing code
+3. **Set up searches** — Configure your vehicle criteria in the Telegram bot
 4. **Start monitoring** — Your 7-day free trial begins automatically
 
-## System Requirements
+### Desktop Agent (Windows)
 
-| Requirement | Minimum |
-|---|---|
-| OS | Windows 10 or 11 |
-| RAM | 4 GB |
-| Disk | ~100 MB |
-| Internet | Required |
-| Facebook | Account required |
+1. **Download** [`CarSnipe_Installer.exe`](https://github.com/Concept211/CarSnipe/releases/latest/download/CarSnipe_Installer.exe) and run it
+2. **Pair with Telegram** — Send `/start` to [@CarSnipeBot](https://t.me/CarSnipeBot) and enter the pairing code
+3. **Log into Facebook** — The agent opens a browser window for a one-time login
+4. **Start monitoring** — Runs quietly in your system tray
 
 ## Pricing
 
@@ -58,19 +64,19 @@ CarSnipe is a Windows desktop agent that monitors Facebook Marketplace for used 
 | Check interval | 15 min | 3 min |
 | Price drop alerts | — | Included |
 
-All plans include a **7-day free trial** — no credit card required.
+All plans include a **7-day free trial** with full Pro features — no credit card required.
 
 ## Security & Privacy
 
-- Facebook credentials are stored **locally on your computer** in encrypted form
-- Credentials are **never** transmitted to CarSnipe servers
-- The agent uses a standard browser session — the same as you opening Facebook yourself
+- Your Facebook session stays **on your device** — never transmitted to CarSnipe servers
+- The extension/agent uses your existing browser session, just like browsing Facebook yourself
+- All communication with the CarSnipe API is encrypted over HTTPS
 - No data scraping or account automation that violates Facebook's terms
 
 ## Support
 
 - **Website:** [carsnipe.com](https://carsnipe.com)
-- **Telegram Bot:** [@CarSnipeBot](https://t.me/CarSnipeBot)
+- **Telegram Bot:** [@CarSnipeBot](https://t.me/CarSnipeBot) — Send `/help` for commands
 - **Issues:** [GitHub Issues](https://github.com/Concept211/CarSnipe/issues)
 
 ## License
